@@ -23,4 +23,16 @@ if age >= 100:
     print("Please enter an age below 100!")
 elif age >= 18:
     print("you are eligible for 18+ movies")
-elif age
+elif age >= 16 and age <= 17:
+    print("you are eligible for 16+ movies")
+elif age == 15:
+    print("you are eligible for 15+ films")
+elif age >= 12 and age <= 14:
+    print("you are eligible to watch 12a but may need an adult supervision ")
+elif age >= 0 and age <= 4:
+    print("you will need parental guidance to watch this film")
+elif age >= 5 and age <= 11:
+    print("This film is universal")
+else:
+    print("please enter your age again")
+
